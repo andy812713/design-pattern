@@ -8,7 +8,7 @@ import java.util.concurrent.TimeUnit;
 /**
  * Unit test for simple App.
  */
-public class AppTest {
+public class ProtoTypeTest {
     @Test
     public void deepCloneTest() throws CloneNotSupportedException, InterruptedException {
 
