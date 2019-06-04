@@ -14,6 +14,10 @@
     <module>factory</module>
     <module>delegate</module>
     <module>strategy</module>
+    <module>prototype</module>
+    <module>prototype</module>
+      <module>adapt</module>
+    <module>template</module>
   </modules>
 
   <name>design-pattern</name>
