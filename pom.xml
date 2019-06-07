@@ -18,6 +18,8 @@
     <module>prototype</module>
       <module>adapt</module>
     <module>template</module>
+    <module>decorate</module>
+    <module>observer</module>
   </modules>
 
   <name>design-pattern</name>

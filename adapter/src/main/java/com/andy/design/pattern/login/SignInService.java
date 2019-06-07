@@ -13,23 +13,24 @@ public class SignInService {
 
     /**
      * 注册
+     *
      * @param userName
      * @param password
      * @return
      */
-    public Result regist(String userName, String password){
-        return new Result(200,"注册成功",new User());
+    public Result regist(String userName, String password) {
+        return new Result(200, "注册成功", new User());
     }
-
 
 
     /**
      * 登录
+     *
      * @param userName
      * @param password
      * @return
      */
-    public Result login(String userName,String password){
-        return new Result(200,"登录成功",new User());
+    public Result login(String userName, String password) {
+        return new Result(200, "登录成功", new User());
     }
 }
