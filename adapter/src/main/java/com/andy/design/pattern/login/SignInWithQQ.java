@@ -4,9 +4,7 @@ import com.andy.design.pattern.Result;
 
 
 /**
- * <p>QQ登录</p>
- * 使用继承，不改变原有逻辑
- *
+ * <p>QQ登录，使用继承，不改变原有逻辑</p>
  * @author AndyWang QQ:295268319
  * @date 2019/6/4 0004 20:10
  */
@@ -19,6 +17,7 @@ public class SignInWithQQ extends SignInService {
      * @return
      */
     public Result loginForQQ(String openId) {
+
         return loginForRegist(openId, null);
     }
 
