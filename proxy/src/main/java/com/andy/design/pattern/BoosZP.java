@@ -18,12 +18,12 @@ public class BoosZP implements JDKInvocationHandler{
 
     @Override
     public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
-        System.out.println("帮职员找工作");
+        System.out.println("我是代理，有事找我");
 
         //Object obj = method.invoke(proxy, args);//陷入死循环
 
         Object obj = method.invoke(this.targer, args);
-        System.out.println(this.targer + "---我本人先看看工作");
+        System.out.println(this.targer + "---事情已做完");
         return obj;
     }
 }
